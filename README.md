@@ -5,23 +5,23 @@ This repository contains code for detecting epileptic events using EEG data from
 
 
 ## Table of Contents
-- [Project Structure](#project-structure)
+- [Directory Structure](#project-structure)
 - [EpilepsyFeatureExtractor Class](#epilepsyfeatureextractor-class)
 - [Classifier Evaluation](#classifier-evaluation)
 - [Requirements](#requirements)
 - [Usage](#usage)
 - [References](#references)
 
-## Project Structure
+## Directory Structure
 
-├── BonnData/
-│ ├── A/
-│ ├── B/
-│ ├── D/
-│ └── E/
-├── EpilepsyFeatureExtractor.py
-├── classifier_evaluation.py
-├── README.md
+- `BonnData/` - Main directory containing subdirectories and scripts.
+  - `A/` - Subdirectory containing dataset A.
+  - `B/` - Subdirectory containing dataset B.
+  - `D/` - Subdirectory containing dataset D.
+  - `E/` - Subdirectory containing dataset E.
+- `EpilepsyFeatureExtractor.py` - Script for extracting features from the epilepsy datasets.
+- `classifier_evaluation.py` - Script for evaluating classifiers on the extracted features.
+- `README.md` - This file.
 
 
 ## EpilepsyFeatureExtractor Class
@@ -87,5 +87,10 @@ The `classifier_evaluation.py` script evaluates various classifiers (Random Fore
   doi = {10.1103/PhysRevE.64.061907},
   url = {https://link.aps.org/doi/10.1103/PhysRevE.64.061907}
 }
+
+
+## The TQWT implementation is adapted from: 
+
+https://github.com/jollyjonson/tqwt_tools.git 
 
 
