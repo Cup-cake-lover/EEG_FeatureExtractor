@@ -15,10 +15,10 @@ This repository contains code for detecting epileptic events using EEG data from
 ## Directory Structure
 
 - `BonnData/` - Main directory containing subdirectories and scripts.
-  - `A/` - Subdirectory containing dataset A.
-  - `B/` - Subdirectory containing dataset B.
-  - `D/` - Subdirectory containing dataset D.
-  - `E/` - Subdirectory containing dataset E.
+  - `A/` - Subdirectory A - Non ictal.
+  - `B/` - Subdirectory B - Non ictal.
+  - `D/` - Subdirectory D - Non ictal.
+  - `E/` - Subdirectory E - ictal.
 - `EpilepsyFeatureExtractor.py` - Script for extracting features from the epilepsy datasets.
 - `classifier_evaluation.py` - Script for evaluating classifiers on the extracted features.
 - `README.md` - This file.
